@@ -1,26 +1,26 @@
-# cors-customizer
+# cors-magic
 
 A customizable CORS middleware for Express.js applications.
 
 ## Installation
 
 ```sh
-npm install cors-customizer
+npm install cors-magic
 ```
 
 ## Usage
 
 ```sh
 const express = require('express');
-const configureCors = require('cors-customizer');
+const cors = require('cors-magic');
 
 const app = express();
 
 // Default configuration
-app.use(configureCors());
+app.use(cors());
 
 // Custom configuration
-app.use(configureCors({
+app.use(cors({
   origins: ['https://example.com', 'https://anotherdomain.com'],
   methods: ['GET', 'POST'],
   headers: ['Content-Type', 'Authorization'],

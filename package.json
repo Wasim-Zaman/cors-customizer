@@ -1,5 +1,5 @@
 {
-  "name": "cors-customizer",
+  "name": "cors-magic",
   "version": "1.0.0",
   "description": "A customizable CORS middleware for Express.js.",
   "main": "index.js",
@@ -8,12 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Wasim-Zaman/cors-customizer"
+    "url": "https://github.com/Wasim-Zaman/cors-magic"
   },
   "keywords": [
     "cors",
     "express",
-    "middleware"
+    "middleware",
+    "cors-middleware",
+    "express-middleware",
+    "customizable",
+    "custom-cors",
+    "cors-configuration",
+    "cors-options",
+    "cors-headers",
+    "cors-preflight-request",
+    "cors-pre-flight-response",
+    "cors-exposed-headers",
+    "express-cors"
   ],
   "author": "Wasim Zaman",
   "license": "MIT"
