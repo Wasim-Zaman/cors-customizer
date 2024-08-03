@@ -1,0 +1,16 @@
+{
+  "name": "cors-customizer",
+  "version": "1.0.0",
+  "description": "A customizable CORS middleware for Express.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cors",
+    "express",
+    "middleware"
+  ],
+  "author": "Wasim Zaman",
+  "license": "MIT"
+}
